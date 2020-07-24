@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Hello from './Hello'// Make sure to import a component to use it in a file
+import HelloYourName from './HelloYourName';
 
 function App() {
   return (
@@ -10,6 +12,10 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Hello/>
+        {/* name is called a property */}
+        <HelloYourName name = "Shivani" favFood = "Pizaa"/>
+        <HelloYourName name = "Senai" favFood = "Pizaa"/>
         <a
           className="App-link"
           href="https://reactjs.org"
