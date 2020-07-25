@@ -7,8 +7,7 @@ import Hello from './Hello'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    <Hello/>
+    <Hello />
   </React.StrictMode>,
   document.getElementById('root')
 );

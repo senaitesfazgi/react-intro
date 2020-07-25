@@ -8,7 +8,7 @@ import HelloStudents from './HelloStudents';
 function App() {
   return (
     <div className="App">
-      <HelloStudents/>
+      {/* <HelloStudents/> */}
         <Hello/>
         {/* name is called a property */}
         <HelloYourName name = "Shivani" favFood = "Pizaa"/>
